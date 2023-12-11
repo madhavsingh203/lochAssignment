@@ -18,7 +18,7 @@ const Section1 = () => {
           on-chain or when a dormant whale you care about becomes active.
         </p>
       </div>
-      <div className="top-card overflow-hidden w-80  shodow-inner rounded-lg shadow-inner">
+      <div className="top-card overflow-hidden w-80  ">
         <Carousel data={data} autoplayEnabled />
       </div>
     </div>

@@ -20,11 +20,12 @@ const Carousel = ({data, autoplayEnabled}) => {
     loop={true}
     slidesPerView={'1.5'}
     
-    ref={swiperRef} className="swiper-container shadow-inner w-full">
+    spaceBetween={"10px"}
+    ref={swiperRef} className="swiper-container  w-full">
       
         {data.map((item, index) => (
           <SwiperSlide key={index} className="swiper-slide w-full">
-            <img src={item} alt={index} />
+            <img src={item} alt={index} className='rounded-xl'/>
           </SwiperSlide>
         ))}
       
